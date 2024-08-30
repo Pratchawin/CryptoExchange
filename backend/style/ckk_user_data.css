@@ -1,0 +1,17 @@
+.ar-show-all-u-data{
+    display: flex;
+    flex-direction: row;
+}
+.ar-show-udataleft{
+    width: 25%;
+}
+.ar-show-udataright{
+    width: 50%;
+}
+.ar-show-uname{
+    margin-top: 20px;
+}
+.btn-conf-udata{
+    margin-top: 40px;
+    text-align: right;
+}

@@ -1,0 +1,21 @@
+/* footer */
+.ar-dottrade-footer-content{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+.ar-dtt-footer{
+    width: 1280px;
+}
+.ar-footer-title{
+    padding-top: 40px;
+    text-align: center;
+}
+.ar-footer-content{
+
+}
+.footer-set-font{
+    color: white;
+}

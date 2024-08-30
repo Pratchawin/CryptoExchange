@@ -1,0 +1,222 @@
+.ar-dottrade-content-top{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+.ar-wellet-container{
+    width: 1280px;
+    margin-bottom: 50px;
+}
+.ar-wallet-total-top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.wallet-total-price{
+    font-size: 18px;
+}
+.conv-money-to-btc-coin{
+    color: rgb(143, 143, 143);
+    font-size: 44px;
+}
+.conv-money-to-btc-coin-thb{
+    color: rgb(143, 143, 143);
+    font-size: 44px;
+}
+.ar-wallet-content,.ar-wallet-content-history{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.wallet-coin-tr-total-price{
+    color: green;
+}
+.wallet-coin-tr-amount{
+    color: blue;
+}
+.wallet-set-bg{
+    background-color: rgb(241, 241, 241);
+}
+.ind-wallet-bx-content-3{
+    width: 100%;
+}
+.tbl-in-wallet{
+    width: 100%;
+}
+.ar-wallet-content2{
+    width: 100%;
+}
+.wallet-bx-content-2{
+    width: 100%;
+}
+.ar-tbl-show-coin-in-wallet{
+    margin-top: 69px;
+    margin-left: 20px;
+}
+.wallet-coin-price,.wallet-coin-title,.wallet-coin-total,.wallet-coin-inorder{
+    font-size:16px;
+}
+.set-wall-tr-txt2{
+    text-align: center;
+}
+.set-wall-tr-txt,.set-wall-tr-txt2{
+    font-size:15px;
+    padding-top: 10px;
+}
+.wallet-coin-tr-coin,.wallet-coin-tr-amount{
+    text-align: center;
+}
+.wallet-coin-tr-total-coin,.wallet-coin-price{
+    text-align: right;
+}
+.wallet-coin-tr-total-price,.wallet-coin-inorder{
+    text-align: right;
+}
+.wallet-coin-inorder2{
+    font-size: 16px;
+    text-align: center;
+}
+.ar-wellet-title-size{
+    font-size: 24px;
+}
+.ar-wellet-his-size{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.ar-tbl-wellet-history-list{
+    width: 100%;
+    margin-top: 20px;
+}
+.wellet-his-th-title-set-size{
+    font-size: 18px;
+}
+.set-date-transaction{
+    text-align: left;
+}
+.wellet-his-td-data{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.set-concur{
+    margin-left: 150px;
+}
+.ar-tbl-wellet-history-list{
+    border-collapse: collapse;
+}
+.ar-tbl-wellet-history-list,.wellet-his-th-title-set-size,.wellet-his-td-data{
+    border-bottom: 1px solid lightgray;
+    padding: 30px;
+}
+.wellet-set-link-dep-and-withd{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.wellet-set-link-dep-and-withd:hover{
+    color: red;
+}
+.ar-wallet-content3{
+    margin-top: 20px;
+}
+.btn-set-dep-and-with{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.btn-wihtdraw{
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    border: 1px lightgray;
+    border-radius: 8px;
+    background-color: rgb(235, 235, 235);
+}
+.tax-invoice{
+    margin-top: 10px;
+    display: flex;
+}
+.ch-coin-link{
+    padding-left: 10px;
+}
+.ar-form-exchan-coin{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.ar-form-ex-chan-left,.ar-form-ex-chan-right{
+    border: 1px solid rgb(255, 255, 255);
+    width: 40%;
+}
+.compare-coin{
+    width: 100%;
+}
+.scl-coin-toex{
+    width: 100%;
+}
+.ar-frm-wrap-inp-data{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.np-mon{
+    width: 100%;
+}
+.scl-coin-toex{
+    border: 1px solid lightgray;
+    width: 100%;
+    padding: 5px;
+    border-radius:8px;
+    margin-top: 4px;
+}
+.inp-np-mon{
+    border: 1px solid lightgray;
+    width: 96%;
+    padding: 5px;
+    border-radius:8px;
+    margin-top: 4px;
+}
+.opt-scl-coin{
+    padding: 5px;
+}
+.btn-exchan-coin{
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+    border: none;
+    background-color: rgb(45, 127, 250);
+    color: white;
+    font-size: 16px;
+}
+.show-icon-echan{
+    text-align: center;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.set-icon-size{
+    font-size: 20px;
+}
+.tbl-compare-coin{
+    border: none;
+    width: 100%;
+    border-collapse: collapse;
+}
+.tbl-set-border{
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+.set-price-tag{
+    text-align: right;
+}
+.set-amount-tag{
+    text-align: right;
+}

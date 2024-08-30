@@ -1,0 +1,48 @@
+.ar-form-upd-new-data{
+    padding: 10px;
+    width: 800px;
+}
+.set-form-data{
+    margin-top: 30px;
+}
+.inp-new-data{
+    width: 220px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+.txt-inp-news-detail{
+    width: 500px;
+    padding: 5px;
+}
+.btn-upd-new{
+    background-color: green;
+    color: white;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-cl-new{
+    background-color: rgb(255, 50, 50);
+    color: white;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
+.tbl-show-news-data{
+    width: 100%;
+    border-collapse: collapse;
+}
+.btn-edit-del,.btn-edit-del2{
+    padding: 3px;
+    background-color: rgb(8, 139, 247);
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.alink-to-exe{
+    text-decoration: none;
+    color: white;
+}
+.btn-edit-del2{
+    background-color: rgb(255, 0, 0);
+}

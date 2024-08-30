@@ -1,0 +1,32 @@
+.bx-show-coin-data{
+    margin-top: 10px;
+}
+.set-pdd-left{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.set-tr-pdd{
+    margin-top: 5px;
+}
+.ar-show-coin-befor-update2{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+.ar-form-add-coin{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.ar-show-form-upd-coin{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-left: 7px;
+}
+.set-hide-inp{
+    display: none;
+}
+.set-txt-inp-pdd{
+    padding: 5px;
+}

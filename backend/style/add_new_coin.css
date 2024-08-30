@@ -1,0 +1,30 @@
+.set-form-ad-nc{
+    padding-top: 10px;   
+}
+.inp-coin-data{
+    padding-left: 10px;   
+}
+.inp-coin-data-txt{
+    padding: 5px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+}
+.ar-txt-area-inp-coin-data{
+    border: 1px solid lightgray;
+    width: 500px;
+    padding: 8px;
+    font-size: 16px;
+}
+.btn-add-coin{
+    padding: 4px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+.btn-bg-cl{
+    background-color: rgb(98, 199, 52);
+    color: white;
+}
+.btn-bg-ccl-cl{
+    background-color: rgb(250, 40, 25);
+    color: white;
+}

@@ -1,0 +1,98 @@
+.ar-deposit-set-content{
+    display: flex;
+    flex-direction: row;
+}
+.ar-how-to-deposit-monney,.ar-show-paypal-app{
+    width: 50%;
+}
+.deposit-user-auten{
+    width: 50%;
+    margin-top: 50px;
+}
+.step-deposit-monney{
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.ar-set-payment-bx{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.set-font-size{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.btn-deposit-link{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    background-color: #008eff;
+}
+.a-link-deposit{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.wallet-bx-content-2{
+    width: 379px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+.wallet-bx-content-3{
+    width: 1050px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+.ar-card-number{
+    margin-top: 10px;
+}
+.ar-card-date-expire{
+    display: flex;
+    margin-top: 10px;
+}
+.inp-dt-xpir{
+    padding: 5px;
+    margin-right: 5px;
+    width: 91%;
+}
+.inp-card-name{
+    padding: 5px;
+    width: 96%;
+}
+.form-cradit-card{
+    width: 357px;
+}
+.ar-wallet-content-history2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+.btn-conf{
+    font-size: 16px;
+    width: 100%;
+    padding: 8px;
+    background-color: #008eff;
+    color: white;
+    border: none;
+}
+.btn-deposit-coin{
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #008eff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

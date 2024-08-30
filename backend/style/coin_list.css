@@ -1,0 +1,22 @@
+.tbl-show-coin-list{
+    width: 100%;
+}
+.tbl-show-coin-list,th,td{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+.th-btn-exe{
+    width: 100px;
+}
+.c-list-no{
+    width: 3px;
+}
+.btc-image{
+    width: 50px;
+}
+.td-coin-line-set{
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+}

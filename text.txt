@@ -1,0 +1,89 @@
+$sql = "INSERT INTO MyGuests (firstname, lastname, email)
+VALUES ('John', 'Doe', 'john@example.com')";
+
+if (mysqli_query($conn, $sql)) {
+      echo "New record created successfully";
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+    mysqli_close($conn);
+    
+
+<?php include '../conn/con_db.php'; ?>
+
+
+$sql = "SELECT id, firstname, lastname FROM MyGuests";
+$result = mysqli_query($conn, $sql);
+
+if (mysqli_num_rows($result) > 0) {
+  // output data of each row
+  while($row = mysqli_fetch_assoc($result)) {
+    echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+  }
+} else {
+    echo "0 results";
+}
+
+
+
+$ckk_dd_name="<p style='color:red; text-align:right; margin-top:10px;'>คุณได้สมัครสมาชิกเเล้ว</p>";
+
+
+$sql = "SELECT id, firstname, lastname FROM MyGuests WHERE lastname='Doe'";
+$result = mysqli_query($conn, $sql);
+
+if (mysqli_num_rows($result) > 0) {
+  // output data of each row
+  while($row = mysqli_fetch_assoc($result)) {
+    echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+  }
+} else {
+  echo "0 results";
+}
+
+
+<meta http-equiv='refresh' content='0;url=http://localhost/crypto/webpage/login.php'>
+
+
+<?php 
+    session_start();
+    @$full_name=$_SESSION["full_name"];    
+    @$u_id=$_SESSION["u_id"];
+?>
+<?php 
+    include '../built_in_func/ckk_login.php'; 
+    ckk_login();
+?>
+<?php
+    @$ckk_status=$_GET["status"];
+    if($ckk_status=="logout"){
+        $ckk_succ=session_unset();
+        if($ckk_succ==true){
+            echo "<meta http-equiv='refresh' content='0;url=http://localhost/crypto/webpage/login.php'>";        
+        }
+    }
+?>
+
+
+
+if(isset($_POST["btn_submit"])){
+        upload_file('file1',"images/");
+        upload_file('file2',"bank_img/");
+    }
+    function upload_file($name,$target){
+        echo "file name: ",$name,"<br>";
+        echo "target:",$target;
+        $file_name = $_FILES[$name]['name'];
+        $file_tmp =$_FILES[$name]['tmp_name'];
+        move_uploaded_file($file_tmp,$target.$file_name);
+    }
+
+
+insert into tbl_user_data(u_id,name,addr,phone,email,u_id_card,uid_file,h_file,u_profile,conf) values();
+
+
+$amount = 1235.56
+echo number_format($amount, 2, '.', '');
+
+
+u_id	coin_id	price	amount	total	date_buy	

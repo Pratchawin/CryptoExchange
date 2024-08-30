@@ -1,0 +1,55 @@
+body{
+    font-family: monospace;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.ar-dottrade-crypto-container{
+    width: 100%;
+}
+.ar-dottrade-nav-top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.ar-dottrade-nav-top-logo{
+
+}
+.dottrade-logo{
+    padding: 24px;
+}
+.dottrade-logo-link{
+    color: white;
+    text-decoration: none;
+}
+.dottrade-link-navtop{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.ar-dtt-navtop-link{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+}
+.ar-navtop-link-list,.ar-dottrade-user-status{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 32px;
+}
+.ar-nav-top-white-space{
+    width: 47%;
+}
+.wll-for-name{
+    background-color: white;
+    color: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}

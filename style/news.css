@@ -1,0 +1,39 @@
+.ar-news-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bx-news-img-and-desc {
+    width: 280px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.news-img-bx{
+    padding: 20px;
+}
+.news-img {
+    width: 100%;
+}
+
+.news-detail{
+    padding: 5px;
+}
+.news-title{
+    font-size: 20px;
+}
+.news-detail{
+    font-size: 15px;
+    padding-top: 5px ;
+}
+.set-link-inpage{
+    text-decoration: none;
+    color: black;
+}
+.set-link-inpage:hover{
+    color: red;
+}

@@ -1,0 +1,261 @@
+.ar-dot-trade-area-container{
+    display: grid;
+    justify-content: center;
+}
+.ar-dottrade-grf{
+    width: 1480px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ar-dottrade-content-left,.ar-dottrade-content-right{
+    width: 20%;
+    height: 800px;
+    background-color: rgb(238, 238, 238);
+}
+.ar-dottrade-content-right{
+
+}
+.merket-over-view{
+    height: 384px;
+    overflow: scroll;
+}
+.ar-dottrade-content-center{
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+}
+.ar-show-trade-title{
+    background-color: rgb(255, 255, 255);
+}
+.link-ctn-show-spot-link,.link-ctn-show-market-link{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.trade-title-list{
+    display: inline-block;
+    width: 12%;
+    margin-left: 14PX;
+    margin-right: 8px;
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.ar-dottrade-bid-list{
+    background-color: rgb(241, 241, 241);
+    height: 48%;
+    overflow: auto;
+}
+.ar-show-current-price{
+    font-size: 18px;
+    padding-left: 5px;
+    background-color: rgb(218, 218, 218);
+}
+.show-current-price-set-txt{
+    font-size: 18px;
+    padding-left: 5px;
+    margin-top: 6px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+.ar-dottrade-ask-list{
+    overflow: auto;
+    height: 48%;
+    background-color: rgb(241, 241, 241);
+}
+.tr-ask-set-trade-price,.tr-ask-set-trade-amount,.tr-ask-set-trade-total{
+    color: red;
+}
+.tr-bid-set-trade-price,.tr-bid-set-trade-amount,.tr-bid-set-trade-total{
+    color: green;
+}
+.ar-tbl-dottrade-left{
+    border-collapse: collapse;
+    width: 100%;
+}
+.dottrade-set-border{
+    padding-top: 10px;
+    background-color: white;
+}
+.set-th-trade-amount{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    padding-left: 5px;
+}
+.set-th-trade-total,.set-th-trade-price,.tr-ask-set-trade-price,.tr-bid-set-trade-price{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    padding-left: 5px;
+}
+.set-th-trade-amount,.set-th-trade-total,.tr-set-trade-amount,.tr-ask-set-trade-amount,.tr-bid-set-trade-amount{
+    text-align: center;
+}
+.set-th-trade-total,.tr-set-trade-total,.tr-ask-set-trade-total,.tr-bid-set-trade-total{
+    text-align: right;
+    padding-right: 5px;
+}
+.ar-show-graf-content{
+    background-color: rgb(255, 255, 255);
+}
+.ar-show-spot-link-content{
+    background-color: rgb(0, 0, 0);
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+.trade-limit-title{
+    padding-left: 18px;
+}
+.ar-show-spot-title{
+    margin-top: 10px;
+}
+.ar-merket-overview{
+    margin-top: 6px;
+    background-color: lightgray;
+}
+.link-ctn-show-spot-link{
+    font-size: 18px;
+    padding-left: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ar-show-coin-list{
+    height: 48%;
+    overflow: auto;
+}
+.ar-show-ar-buy-and-sele-content{
+    height: 25%;
+    background-color: rgb(255, 255, 255);
+}
+.ar-show-ar-buy-and-sele-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.show-market-overview-set-txt{
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+.ar-buy-coin-bx{
+    background-color: rgb(255, 255, 255);
+}
+.ar-sale-coin-bx{
+    background-color: rgb(255, 255, 255);
+}
+.ar-buy-coin-bx,.ar-sale-coin-bx{
+    width: 50%;
+}
+.ar-show-account-balance{
+    text-align: left;
+    padding-left: 18px;
+    padding-top:10px;
+}
+.set-inp-buy-coin-price,.set-inp-buy-coin-amount{
+    width: 93%;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(179, 179, 179);
+    background-color: white;
+}
+.btn-buy-coin,.btn-sale-coin{
+    width: 97%;
+    padding: 5px;
+    font-size: 18px;
+}
+.ar-set-btn-sale-coin,.ar-set-btn-buy-coin{
+    text-align: right;
+    padding-right: 15px;
+}
+.btn-sale-coin,.btn-buy-coin{
+    border: none;
+    background-color: red;
+    color: white;
+}
+.ar-bc-buy-show-total{
+    font-size: 18px;
+    padding: 5px 11px 5px 5px;
+    text-align: right;
+}
+.btn-buy-coin{
+    background-color: green;
+    color: white;
+}
+.ar-bx-buy-coin,.ar-bx-sale-coin{
+    text-align: right;
+    padding-right: 8px;
+    margin-top: 10px;
+}
+.set-inp-buy-coin-amount{
+    margin-top: 10px;
+}
+.acc-balance-txt{
+    font-size: 16px;
+}
+.ar-tbl-right-show-other-coin{
+    border-collapse: collapse;
+    width: 100%;
+}
+.ar-show-history-buy-and-sele-content{
+    height: auto;
+}
+.ar-dottrade-footer-ctn{
+    margin-top: 40px;
+    height: 60px;
+    background-color: black;
+}
+.td-show-other-coin-name,.td-show-other-coin-change,.td-show-other-coin-price{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    padding-left: 5px;
+}
+.td-show-other-coin-price{
+    text-align: center;
+}
+.td-show-other-coin-change{
+    text-align: right;
+    padding-right: 20px;
+}
+.ar-show-history-list{
+    padding: 14px;
+}
+.tbl-show-history-list{
+    width: 100%;
+}
+.th-order-list-order-title,.th-order-list-date-title{
+    text-align: left;
+}
+.tr-market-overview-set-trade-price{
+    color: red;
+}
+.th-order-list-total-title,.th-order-list-amount-title,.th-order-list-price-title{
+    padding-top: 10px;
+    text-align: right;
+}
+.th-order-list-total-title,.td-order-list-total-title{
+    padding-right: 10px;
+}
+.td-order-list-total-title,.td-order-list-amount-title,.td-order-list-price-title{
+    text-align: right;
+}
+.set-inline-bx{
+    display: flex;
+}
+.mon-ney-inacc{
+    padding-left: 186px;
+    padding-top: 4px;
+    font-size: 13px;
+    text-align: right;
+}
+.mon-ney-inacc2{
+    padding-left: 322px;
+    padding-top: 4px;
+    font-size: 13px;
+    text-align: right;
+}

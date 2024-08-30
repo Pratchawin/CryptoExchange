@@ -1,0 +1,79 @@
+.ar-show-form-withdraw{
+
+}
+.ar-show-form-withdraw{
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 50px;
+}
+.form-withdraw-img-and-inp{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.wth-coin-image{
+    width: 100px;
+}
+.coin-image{
+    text-align: center;
+}
+.ar-inp-data{
+    margin-top: 5px;
+    text-align: center;
+}
+.inp-addr-data{
+    width: 80%;
+    padding: 5px;
+}
+.btn-send-coin{
+    margin-top: 20px;
+    padding: 8px;
+    background-color: rgb(40, 133, 255);
+    color: white;
+    width:  83%;
+    border: none;
+    border-radius: 8px;
+}
+.ar-bx-coin-amount{
+    margin-top: 20px;
+}
+.send-coin-title{
+    font-size:16px;
+    padding-left: 50px;
+}
+.btn-create{
+    background-color: rgb(40, 133, 255);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.ar-show-addr{
+    justify-content: center;
+    display: flex;
+}
+.show-recip-addr{
+    padding-top: 5px;
+    padding-right: 15px;
+}
+.ar-btn-send-coin{
+    text-align: center;
+}
+.show-status{
+    padding-right: 50px;
+    padding-top: 10px;
+    text-align: right;
+    color: rgb(0, 161, 0);
+}
+.set-icon-mon{
+    font-size: 80px;
+    border: 1px solid lightgray;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.width-draw-to-bank-acc{
+    text-align: center;
+}

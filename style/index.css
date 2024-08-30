@@ -1,0 +1,157 @@
+.ar-dottrade-bg-color{
+    background-image: url('../image_file/dottrade.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+}
+.ar-dottrade-content-top{
+    width: 100%;
+}
+.ar-webtrade-content-top,.ar-show-top-coin-btc-eth-ustd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dottrade-pc-mobile-trade{
+    width: 400px;
+}
+.ar-dottrade-content-txt{
+    width: 580px;
+    padding-right: 250px;
+    margin-top: 100px;
+}
+.ar-dottrade-content-image{
+    margin-top: 100px;
+}
+.ctn-txt-title-set-color{
+    color: white;
+    font-size: 30px;
+}
+.ar-show-top-coin-btc-eth-ustd{
+
+}
+.ind-bx-content-2{
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+}
+.show-top-coin-bx-list{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+.li-dtt-content-list{
+    margin-top: 10px;
+    font-size: 20px;
+}
+/*content*/
+.ar-dottrade-container{
+    display: flex;
+    justify-content: center;
+}
+.ar-dottrade-content{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 1280px;
+}
+.tbl-ind-show-market-cap{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-collapse: collapse;
+}
+.ar-dtt-set-font-size{
+    font-size: 28px;
+    color: black;
+}
+.ind-set-font-size{
+    font-size: 18px;
+}
+.cnn-name,.cnn-last-price,.cnn-24change{
+    text-align: left;
+}
+.cnn-market-cap,.th-cnn-24change,.th-cnn-market-cap{
+    text-align: right;
+}
+.tbl-dtt-ind-th{
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.td-dtt-ind{
+    padding: 5px 5px 5px 5px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    font-size: 12px;
+}
+.btn-trade-now{
+    color: white;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-trade-now:hover{
+    cursor: pointer;
+}
+.ind-bx-content-3{
+    margin-top: 10px;
+}
+.ar-see-more{
+    margin-top: 20px;
+    text-align: right;
+}
+.link-see-more{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 5px;
+}
+.tr-dtt-ind-set-margin-top{
+
+}
+.ar-show-yt-video-and-txt{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dtt-show-video,.dtt-video-txt{
+    
+}
+.dtt-show-video-right{
+    margin-left: 25px;
+}
+.set-color{
+    /* color: green; */
+    text-align: right;
+}
+.dtt-video-txt2{
+    margin-left: 5px;
+    width: 732px;
+}
+.dtt-video-txt{
+    margin-left: 50px;
+    width: 430px;
+}
+.dtt-video-title{
+    font-size: 30px;
+}
+.video-set-margin{
+    margin-bottom: 10px;
+}
+.ind-td-price{
+    font-size: 15px;
+}
+.ind-td-price-title{
+    font-size: 20px;
+}

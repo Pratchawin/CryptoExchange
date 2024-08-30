@@ -1,0 +1,42 @@
+.market-link-list{
+    margin-right: 10px;
+    font-size: 18px;
+    color: rgb(141, 141, 141);
+    text-decoration: none;
+}
+.market-link-list:hover{
+    color: red;
+}
+.ar-market-link-top{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.cnn-market-trade{
+    text-align: center;
+}
+.market-oth-btn{
+    text-align: center;
+}
+.market-trade{
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.market-set-tbl-title{
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+}
+#btcchange{
+    color: red;
+}
+.tr-dtt-ind-set-margin-top{
+    margin-top: 10px;
+}
+.td-dtt-market-data{
+    padding: 17px 5px 5px 5px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    font-size: 16px;
+}

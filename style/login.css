@@ -1,0 +1,50 @@
+.ar-login-container{
+    margin-top: 20px;
+    background-color: white;
+    width: 1280px;
+}
+.login-img-and-form{
+    display: flex;
+    flex-direction: row;
+}
+.ar-dottrad-img{
+    width: 50%;
+}
+.ar-form-login{
+    width: 50%;
+    background-color: lightgray;
+}
+.ar-form-login{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+.inp-email-and-pass{
+    border: 1px solid lightgray;
+    width: 91%;
+    padding: 11px;
+    border-radius: 5px;
+}
+.btn-login-and-register{
+    margin-top: 23px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+}
+.btn-register{
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+}
+.ar-bx-inp-pass,.ar-bx-inp-email{
+    margin-top: 15px;
+}
+.ar-inp-title{
+    padding-bottom: 5px;
+}
+.ar-regis-inp-fname-lname{
+    display: flex;
+}

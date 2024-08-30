@@ -1,0 +1,29 @@
+.ar-show-tbl-new-list{
+    width: 1200px;
+}
+.tbl-dash-new-user{
+    width: 100%;
+}
+.dash-td-nw-data{
+    border-bottom: 1px solid lightgray;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.us-no{
+    text-align: center;
+}
+.us-name{
+    padding-left: 20px;
+}
+.us-readmore,.us-auth,.us-date{
+    text-align: center;
+}
+.btn-check-data{
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+}
+.a-linke-ckk-udata{
+    text-decoration: none;
+    color: black;
+}
